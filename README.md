@@ -1,10 +1,16 @@
 # diffusion-be-indexer-task
 
-At Diffusion, we're seeking a proficient backend engineer capable of indexing historical swaps on the Ethereum network, standardizing their format into a consistent structure, and storing them locally for future reference. This task mirrors the core responsibilities of a backend engineer at Diffusion by focusing on efficient data management. It involves indexing Ethereum network swaps, ensuring consistent formatting, and local storage. Similar to the engineer's role, it requires using tools like Pydantic in Python for data integrity, handling multiple pool addresses concurrently, and highlighting scalability concerns. The emphasis on optimization aligns with backend engineers' goals at Diffusion, aiming to optimize retrieval speed and storage efficiency while maintaining robust error handling.
+At Diffusion, we are seeking a proficient backend engineer to join our growing team. The role requires a strong understanding of software architecture, experience programming in object-oriented languages such as Golang or Rust, as well as an intermediate understanding of Python. The role will focus on building fast and robust systems for data processing, and will interface directly with cloud engineering and frontend development teams.
 
-Fundamentally, this task embodies the essence of a backend engineer's role at Diffusion. It encapsulates data management, leveraging specific tools for integrity, addressing scalability concerns, optimizing system performance, and emphasizing robust error handling—echoing the daily responsibilities of engineers in maintaining reliable and efficient backend systems within the company's infrastructure.
+This task mirrors the core responsibilities of a backend engineer at Diffusion and is focussed on building a prototype data system. It deals with indexing swaps on the Ethereum network, ensuring consistent formatting, and local storage of swaps in an appropriate database structure. Successful applicants will use tools like Pydantic in Python for data integrity, handling multiple pool addresses concurrently, and highlighting scalability concerns.
 
-The task involves indexing historic swaps on the Ethereum network, standardizing their format, and storing them in a local file to create a consistent time series of swap data across various traded pools. Here are some key points to consider:
+Here are some key points to consider:
+
+#### Task Description
+
+Build a system to index historic swaps on Ethereum, and create a queryable database for historic swaps.
+
+Things to consider should include: How to include the dollar value of swaps and their execution price, how to include the cost of each transaction in gas terms and also in dollar terms.
 
 #### Desirables and Considerations
 
