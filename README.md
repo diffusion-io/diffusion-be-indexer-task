@@ -6,7 +6,7 @@ This task mirrors the core responsibilities of a backend engineer at Diffusion a
 
 Here are some key points to consider:
 
-#### Task Description
+## Task Description
 
 Build a system to index historic swaps on Ethereum, and create a queryable database for historic swaps.
 
@@ -29,13 +29,13 @@ Things to consider should include: How to include the dollar value of swaps and 
 
 This summary outlines the task to index historical swaps from the Ethereum network, standardize their structure, and store them locally, emphasizing data consistency, efficiency, and scalability. Candidates are encouraged to consider additional improvements and optimizations beyond the outlined scope for bonus points.
 
-### Submission
+## Submission
 
 Candidates are encouraged to submit their completed tasks in a programming language they prefer, with Python, Rust, or Golang being the preferred choices. Submissions can be sent to `jake` at `diffusion` dot `io`. 
 
 Alternatively, candidates can grant email access or provision their submission in a private repository accessible to this email to review the task. This flexibility allows candidates to showcase their proficiency in their preferred language while ensuring ease of submission and evaluation for the backend engineer role at Diffusion.
 
-### Example
+## Example Script
 
 The file `example.py` provides a quick script to query swaps executed on a **specific pool** within the last 2000 blocks on the Ethereum network. The specific pool queried is the pool at the contract address `0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852` on the network.
 
